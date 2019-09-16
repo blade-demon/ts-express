@@ -10,7 +10,7 @@ app.use(
     extended: true
   })
 );
-app.use(cookieSession({keys: ["hello ts"]}));
+app.use(cookieSession({keys: ["express_ts"]}));
 app.use(router);
 
 app.listen(3000, () => {
